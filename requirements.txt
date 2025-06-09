@@ -1,0 +1,10 @@
+streamlit
+pandas
+gnews
+transformers
+sentencepiece
+torch
+wordcloud
+matplotlib
+plotly
+plotly-express
