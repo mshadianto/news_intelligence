@@ -1,0 +1,95 @@
+/* assets/custom.css */
+
+/* Mengurangi padding di sekitar elemen st.expander untuk tampilan yang lebih padat */
+.stExpander {
+    padding: 0.5rem 0.5rem;
+}
+
+/* Kustomisasi Mark (untuk NER highlight) */
+mark {
+    padding: 0.2em 0.3em;
+    margin: 0 0.25em;
+    line-height: 1.5;
+    border-radius: 0.25em;
+    display: inline-block; /* Memastikan highlight bekerja dengan baik untuk rentang baris */
+}
+
+/* Gaya untuk judul bagian */
+h1, h2, h3, h4, h5, h6 {
+    color: #4CAF50; /* Menggunakan warna aksen untuk judul */
+}
+
+/* Gaya untuk tombol utama */
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #5cb85c; /* Sedikit lebih terang saat hover */
+}
+
+/* Gaya untuk input teks dan selectbox */
+.stTextInput>div>div>input, .stSelectbox>div>div>div>div {
+    border: 1px solid #4CAF50;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #2D2D30;
+    color: #E0E0E0;
+}
+
+/* Scrollbar kustom (Webkit browsers) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2D2D30;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5cb85c;
+}
+
+/* Gaya untuk info, warning, success, error boxes */
+.stAlert > div {
+    border-radius: 0.5rem;
+}
+.stAlert.info > div {
+    background-color: rgba(0, 123, 255, 0.2); /* Biru transparan */
+    color: #ADD8E6; /* Biru muda */
+    border: 1px solid #007bff;
+}
+.stAlert.success > div {
+    background-color: rgba(40, 167, 69, 0.2); /* Hijau transparan */
+    color: #90EE90; /* Hijau muda */
+    border: 1px solid #28a745;
+}
+.stAlert.warning > div {
+    background-color: rgba(255, 193, 7, 0.2); /* Kuning transparan */
+    color: #FFD700; /* Kuning emas */
+    border: 1px solid #ffc107;
+}
+.stAlert.error > div {
+    background-color: rgba(220, 53, 69, 0.2); /* Merah transparan */
+    color: #FFA07A; /* Salmon */
+    border: 1px solid #dc3545;
+}
+
+/* Custom styling for markdown headers if needed */
+/* [data-testid="stMarkdownContainer"] h3 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-top: 1.5rem;
+} */

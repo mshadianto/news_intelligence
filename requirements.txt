@@ -1,10 +1,14 @@
+# requirements.txt
 streamlit
-pandas
-gnews
 transformers
+gnews
+pandas
 sentencepiece
-torch
-wordcloud
 matplotlib
 plotly
-plotly-express
+scikit-learn
+bertopic==0.16.0 # Pastikan versi ini kompatibel, atau coba versi terbaru jika ada masalah
+hdbscan # Dependensi BERTopic
+nltk # Mungkin dibutuhkan oleh BERTopic atau tokenizer lain
+networkx
+streamlit-agraph # Untuk visualisasi graph (akan diimplementasikan nanti)

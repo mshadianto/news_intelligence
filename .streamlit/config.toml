@@ -1,0 +1,9 @@
+# .streamlit/config.toml
+
+[theme]
+base="dark"
+primaryColor="#4CAF50" # Hijau kehijauan untuk aksen utama
+backgroundColor="#1E1E1E" # Background gelap yang dalam
+secondaryBackgroundColor="#2D2D30" # Warna panel/sidebar yang sedikit lebih terang
+textColor="#E0E0E0" # Warna teks terang
+font="sans serif"

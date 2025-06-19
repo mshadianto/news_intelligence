@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+.vscode/
+
+# IPython
+.ipynb_checkpoints
+.ipython/
+.jupyter/
+
+# OS
+.DS_Store
+.Trash/
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit
+.streamlit/
+*.log
+
+# Other specific files you might want to ignore
+*.txt # If packages.txt is no longer needed and you don't want to track it
