@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # requirements.txt
 streamlit
 transformers
@@ -12,3 +13,15 @@ hdbscan # Dependensi BERTopic
 nltk # Mungkin dibutuhkan oleh BERTopic atau tokenizer lain
 networkx
 streamlit-agraph # Untuk visualisasi graph (akan diimplementasikan nanti)
+=======
+streamlit
+pandas
+gnews
+transformers
+sentencepiece
+torch
+wordcloud
+matplotlib
+plotly
+plotly-express
+>>>>>>> 7e34aa8f0c4b9462b6a726759d05fab59a93e41e
