@@ -14,6 +14,7 @@ seaborn==0.13.2
 wordcloud==1.9.4
 
 # News Scraping & NLP
+gnews==0.3.8
 beautifulsoup4==4.13.4
 newspaper3k==0.2.8
 requests==2.31.0
